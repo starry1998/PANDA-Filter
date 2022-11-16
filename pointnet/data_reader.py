@@ -137,7 +137,7 @@ class ShapeNetDataset(data.Dataset):
         return len(self.msms_index)
 
 if __name__ == '__main__':
-    datapath = '/data/lingtianze/zyy/denoise/data/dataset/traindata_set/traindata_nce25_sn02.pkl'
+    datapath = '/data/lingtianze/zyy/denoise/data/dataset/traindata_set/PXD010595_25.pkl'
     d = ShapeNetDataset(datapath)
     dataset_size=len(d)
     print(dataset_size)
